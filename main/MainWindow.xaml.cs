@@ -20,7 +20,7 @@ namespace main {
         // DLL Path
         //  private string usedDLLPath = "B:\\Main\\Main Projects\\! Abyss\\New\\build\\Abyss v1.4.dll";
         private string usedDLLPath = "C:\\Users\\" + Environment.UserName + "\\AppData\\Roaming\\.minecraft\\libraries\\abyss.dll"; // C:\\Windows\\Cursors\\abyss.dll
-        private string downloadDLLUrl = "github.com/Abyss-Client/Abyss/releases/latest/download/Abyss.dll"; // https://skidfucker.dev/abyss/latest
+        private string downloadDLLUrl = "https://github.com/Abyss-Client/Abyss/releases/latest/download/Abyss.dll"; // https://skidfucker.dev/abyss/latest
 
         public event PropertyChangedEventHandler? PropertyChanged;
 
